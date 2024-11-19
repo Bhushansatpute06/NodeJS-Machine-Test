@@ -1,4 +1,4 @@
-# Product and Category Manager 🛍️📦
+# Product and Category Manager 
 
 This is a backend Node.js Express application that returns server-rendered HTML files. The HTML files are dynamic in nature, providing a seamless experience for managing products and categories. It supports CRUD (Create, Read, Update, Delete) operations for both categories and products. You can also fetch all the products associated with a specific category, making it simple to manage product-category relationships.
 
@@ -59,14 +59,3 @@ This is a backend Node.js Express application that returns server-rendered HTML 
 | `/api/categories/category/:id` | `GET`           | Fetch all products for a specific category | **Path**: `id` (required, category ID)                                         | Path Param   |
 
 ---
-
-## Notes
-
-- **Pagination**: Both `products` and `categories` support pagination using optional `page` and `pageSize` query parameters.
-- **Parameter Handling**:
-  - **Path Parameters**: For resource identification, e.g., `:id`.
-  - **Query Parameters**: For filtering or pagination, e.g., `page`, `pageSize`.
-  - **JSON Body**: For creating or updating resources.
-
-
-
